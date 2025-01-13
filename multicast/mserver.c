@@ -73,3 +73,23 @@ int main() {
     return 0; // Return 0 to indicate successful completion
 }
 
+
+
+output:-
+    // server:-
+    // gcc mserver.c
+    // %a.out
+    // Binding Sucessfully.
+    // Listing for incoming message....
+    // hello from client -1
+    // hello ffrom client -2
+
+    // client-1
+    // gcc mclient.c
+    // %a.out
+    // Recived from server
+
+    //  client-2
+    // gcc mclient.c
+    // %a.out
+    // Recived from server
