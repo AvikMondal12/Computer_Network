@@ -63,3 +63,18 @@ int main(int argc, char const* argv[])
     return 0;
 }
 
+
+
+
+// output:-
+// server site
+// bwu @ bwu-45 iom-s2:$gcc main server.c
+// %a.out
+// One biriany request from mr. client mr. client order sent to you.
+
+
+//     client site :-
+//     gcc avikclient.c
+//     %a.out
+//     order sent sucessfully...
+//     Biriany got from Dada Boudi.
