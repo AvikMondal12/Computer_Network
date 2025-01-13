@@ -47,3 +47,18 @@ int main() {
     close(sock);
     return 0;
 }
+
+
+
+
+// output:-
+//     mserver:-
+//     gcc mserver.c
+//     %a.out
+//     Broadcast message sent : This is a broadcast message:
+
+// mclient:-
+//     gcc mclient.c
+//     %a.out
+//     Listing For broadcast on part 12345..
+//     Recived message:This is a broadcast message;
